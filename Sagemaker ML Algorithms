@@ -1,0 +1,90 @@
+Linear Learner
+-	Supervised.
+-	Classification & Regression Problems
+
+XGBoost
+-	Supervised
+-	Classification & Regression Problems
+-	XGB involves gradient boosting, which is an approach where new models are created that predict the residuals or errors of prior models and then added together to make the final prediction. 
+
+K-Nearest Neighbors
+-	Classification & Regression & Clustering Problems
+-	“Birds of the same feather flock together.” – Assumes similar items are grouped together.
+-	Drawback – slows significantly as the data size grows.
+-	KNN algorithm is a good choice if you have a small dataset and the data is noise free and labeled.
+-	Example: South Indian vs North Indian based on the number of different types of clothes he has.
+
+Factorization Machines
+-	Supervised Algorithm.
+-	Classification & Regression Problems
+-	This algorithm was designed as an engine for recommendation systems
+-	Are much more computationally efficient on large sparse data sets than traditional algorithms like linear regression.
+
+Image Classification
+-	Image Classification algorithm is a supervised learning algorithm that supports multi-label classification. 
+-	It takes an image as input and outputs one or more labels assigned to that image.
+-	Example: An image containing snow-capped mountains may be labelled as ‘Mountains’, ‘Holiday’, ‘Skiing’
+
+Object Detection
+-	Supervised.
+-	Classifies objects in an image.
+-	Puts a rectangle box around the detected object giving the actual location and size in the image.
+-	Example: Object detection in self driving cars.
+
+Semantic Segmentation
+-	Supervised.
+-	The SageMaker semantic segmentation algorithm provides a fine-grained, pixel-level approach to developing computer vision applications. It tags every pixel in an image with a class label from a predefined set of classes.
+-	Can be further used to predict behaviour of objects.
+-	Example: Object Detection in self driving cars.
+
+Latent Dirichlet Algorithm
+-	Unsupervised.
+-	You expect particular words to appear in the document more or less frequently: "dog" and "bone" will appear more often in documents about dogs, "cat" and "meow" will appear in documents about cats, and "the" and "is" will appear approximately equally in both.
+-	Example: Automatically classify documents and estimate their relevance to various topics
+
+Neural Topic Model
+-	Unsupervised.
+-	Used to organize a large volume of text documents into topics that contain word groupings based on their statistical distribution. Documents that contain frequent occurrences of words such as "bike", "car", "train", "mileage", and "speed" are likely to share a topic on "transportation" for example.
+-	Example: Read a collection of tweets and understand what it is about.
+
+Blazing Text
+-	Both supervised and unsupervised.
+-	Supervised – Classification of text.
+-	Unsupervised – Gives Embeddings. – Words that are semantically similar correspond to vectors that are close together.
+
+DeepAR
+-	Supervised.
+-	Used to forecast based on time series data and how a variable changes over time. 
+-	Allows more variables to be added that may influence the target variable.
+-	Example: Stock market analysis, Solar flare prediction.
+
+Seq2Seq
+-	Supervised
+-	Inputs are taken as one sequence and transformed into another type of sequence.
+-	Examples: Speech to text; Language translation.
+
+KMeans
+-	Unsupervised.
+-	Works on the assumption that members of one group are as similar to each other and as different as possible from another group.
+-	You define the attributes that you want the algorithm to use to determine similarity.
+-	Example: Customer Segmentation for a telecom company based on money spent in recharging, calls made, amount of sms sent, and browsing the internet.
+
+Random Cut Forests
+-	Unsupervised.
+-	Use when you don’t know what you want to remove specifically. If you do, use a classification model.
+-	Example: GDP growth rate prediction based on data of last 50 years. Remove Covid year
+
+IP Insights
+-	Unsupervised
+-	Its used to learn patterns of usage for IPv4 addresses by capture relations/associations of IP with userID etc.
+-	Example: Use it to protect your website against public VPN services.
+
+Principal Component Analysis
+-	Unsupervised.
+-	Reduce the features into set no of components. 
+-	Groups multiple uncorrelated features into one component by building a covariance matrix
+
+Object2Vec
+-	Supervised
+-	Allows to embed objects in your dataset. Objects can be words, lists, documents, etc.
+-	Used as a part of other algorithms like Object detection, Sentiment Analysis, NLP.
